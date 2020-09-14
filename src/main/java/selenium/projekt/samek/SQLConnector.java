@@ -41,3 +41,4 @@ public class  SQLConnector {
         con.close();
     }
 }
+// komentarz końcowy
