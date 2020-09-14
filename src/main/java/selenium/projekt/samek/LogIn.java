@@ -33,8 +33,8 @@ public class LogIn {
 
         //parametry logowania do instancji testowej STA
         String BASE_URL = "http://126.193.3.86/PzPWeb/";
-        String BASE_LOGIN = "samekmarkat";
-        String BASE_PASSWORD = "Test2020!";
+        String BASE_LOGIN = "user1";
+        String BASE_PASSWORD = "Haslo2020!";
 
         // lokalizacja dla logu zdarzeń scenariusza automatycznego
         PrintWriter ZapisLog = new PrintWriter("C:\\Users\\samekmar\\Desktop\\zapisLog.txt");
@@ -146,7 +146,7 @@ public class LogIn {
         // - uruchomienie js odpowiadającego za przejście do okna formatowani SMS
         // - wysłanie wiadomosci (treść wg szablonu)
         WebDriverWait waiting = new WebDriverWait(driver, 5);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        JavascriptExecutor js = driver;
         String orderNumber = "KAW008/N/12998971/2020/1";
         String smsHandleWindow;
 

@@ -14,8 +14,8 @@ public class  SQLConnector {
 
         // dane do połączenie do bazy PZP
         String dbUrl = "jdbc:oracle:thin:@126.193.3.67:1521:PZPWL";
-        String username = "tp";
-        String password = "!tp!";
+        String username = "dbuser";
+        String password = "!dbuser!";
         Class.forName("oracle.jdbc.driver.OracleDriver");
 
         // zapytanie do wykonania
