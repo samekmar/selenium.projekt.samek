@@ -32,7 +32,7 @@ public class LogIn {
     public void openMainWindow() throws InterruptedException, FileNotFoundException {
 
         //parametry logowania do instancji testowej STA
-        String BASE_URL = "http://126.193.3.86/PzPWeb/";
+        String BASE_URL = "http://126.193.3.87/PzPWeb/";
         String BASE_LOGIN = "user1";
         String BASE_PASSWORD = "Haslo2020!";
 

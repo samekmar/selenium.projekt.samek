@@ -13,7 +13,7 @@ public class  SQLConnector {
     public static void main(String[] args) throws  ClassNotFoundException, SQLException {
 
         // dane do połączenie do bazy PZP
-        String dbUrl = "jdbc:oracle:thin:@126.193.3.67:1521:PZPWL";
+        String dbUrl = "jdbc:oracle:thin:@126.193.3.87:1521:PZPWL";
         String username = "dbuser";
         String password = "!dbuser!";
         Class.forName("oracle.jdbc.driver.OracleDriver");
